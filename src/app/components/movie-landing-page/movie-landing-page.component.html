@@ -1,0 +1,8 @@
+
+<app-showcase [imgSrc]="showcaseImgUrl"></app-showcase>
+
+  <div class="row" style="margin-left:10px ;">
+    <app-movie-card *ngFor="let movieDetails of moviesData" [movie]="movieDetails"></app-movie-card>
+  </div>
+
+
